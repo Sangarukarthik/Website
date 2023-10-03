@@ -1,5 +1,5 @@
-nav-bg {
-  background-color: transparent;
+.nav-bg {
+  background-color: white;
 }
 
 .logo {
@@ -35,7 +35,6 @@ nav-bg {
 
 .form-select {
   width: 150px;
-
   margin-right: 370px;
 }
 
@@ -74,6 +73,57 @@ nav-bg {
   border-radius: 1px;
 }
 
+.item {
+  padding-left: 300px;
+  padding-right: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding-left: 20px;
+  margin-left: 10PX;
+}
+
 .home-img {
-  padding: 30px;
+  width: 300px;
+  padding-right: 80px;
+}
+
+.home-discount {
+  background-color: rgb(0, 159, 127);
+  position: absolute;
+  font-size: 12px;
+  color: white;
+  padding: 7px;
+  font-weight: 600;
+  margin-left: 230px;
+  /* border-radius: 10px; */
+}
+
+.count-btn {
+  /* padding: 20px; */
+  padding-right: 50px;
+  border-radius: 1px;
+}
+
+.fixed-btn {
+  position: fixed;
+  top: 280px;
+  left: 1230px;
+  width: 120px;
+  padding: 20px;
+  font-weight: 700;
+}
+
+.fixed-btn:hover {
+  color: white
+}
+
+.span-text {
+  background-color: white;
+  padding: 10px;
+  color: rgb(0, 159, 127);
+}
+.home-icon{
+  font-size: 20px;
 }
