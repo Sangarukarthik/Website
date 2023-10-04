@@ -13,6 +13,7 @@
   margin: 20px;
   text-decoration: none;
   padding: 2px;
+  cursor: pointer;
 }
 
 .btn,
@@ -36,6 +37,7 @@
 .form-select {
   width: 150px;
   margin-right: 370px;
+  cursor: pointer;
 }
 
 .home {
@@ -74,19 +76,20 @@
 }
 
 .item {
-  padding-left: 300px;
-  padding-right: 40px;
+  padding-left: 200px;
+  /* padding-right: 20px; */
   flex-wrap: wrap;
 }
 
 .card {
-  padding-left: 20px;
+  padding-left: 10px;
   margin-left: 10PX;
 }
 
 .home-img {
   width: 300px;
   padding-right: 80px;
+  cursor: pointer;
 }
 
 .home-discount {
@@ -101,7 +104,7 @@
 }
 
 .count-btn {
-  /* padding: 20px; */
+  padding: 20px;
   padding-right: 50px;
   border-radius: 1px;
 }
@@ -126,4 +129,15 @@
 }
 .home-icon{
   font-size: 20px;
+}
+.sidebar{
+  padding: 10px;
+}
+.menu-items{
+  text-decoration: none;
+  padding: 20px;
+
+}
+li{
+  list-style-type: none;
 }
